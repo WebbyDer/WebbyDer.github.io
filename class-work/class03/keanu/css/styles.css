@@ -2,7 +2,12 @@ body {
 	background: black;
 	color: white;
 }
+
 p  {
 	color: blue;
+
+}
+ul  { 
+	padding: 10px;
 
 }
