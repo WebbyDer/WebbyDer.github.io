@@ -1,4 +1,4 @@
-.header {
+.header  {
 	background-color: rgb(9, 202,159);
 	color: white;
 	margin: 15px;
@@ -10,20 +10,21 @@
 
 .location one  {
 	background-color: rgb(196,222,252);
+	border: 4px wide;
 	color: black;
   	display: inline;
   	padding: 5px 10px 5px 10px;
   	text-align: center;
 }
 
-.location two {
-
+.location two  {
 	background-color: rgb(194,242,227);
+	border: 4px wide;
 	color: black;
 	text-align: center;
 }
 
-.location three{
+.location three  {
 	background-color: rgb(196,222,252);
 	color: black;
 	text-align: center;
