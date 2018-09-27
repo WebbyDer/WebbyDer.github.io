@@ -1,12 +1,16 @@
 .header {
-	background: rgb(9,202,159);
+	background-color: rgb(9, 202,159);
 	color: white;
 	margin: 15px;
-	padding: 5px 10px;
 	text-align: center;
 }
+.class  {
+	color: black;   
+}
+
 .location one  {
 	background-color: rgb(196,222,252);
+	color: black;
   	display: inline;
   	padding: 5px 10px 5px 10px;
   	text-align: center;
@@ -20,8 +24,12 @@
 }
 
 .location three{
-	background-color:  rgb(196,222,252);
+	background-color: rgb(196,222,252);
 	color: black;
 	text-align: center;
 	padding:5px 10px 5px 10px;
+}
+
+footer {
+	text-align: center:
 }
