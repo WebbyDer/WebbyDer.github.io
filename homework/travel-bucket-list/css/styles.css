@@ -12,8 +12,8 @@ li {
 	text-align: center;
 }
 
-#location-one  {
-	background-color: rgb(196,222,252);
+.location-one  {
+	background: rgb(196,222,252);
 	border: 4px wide;
 	color: black;
   	display: inline;
@@ -21,14 +21,14 @@ li {
   	text-align: center;
 }
 
-#location-two  {
+.location-two  {
 	background-color: rgb(194,242,227);
 	border: 4px wide;
 	color: black;
 	text-align: center;
 }
 
-#location-three  {
+.location-three  {
 	background-color: rgb(196,222,252);
 	color: black;
 	text-align: center;
@@ -37,4 +37,9 @@ li {
 
 .footer {
 	text-align: center:
+}
+
+.location-one, .location-two, .location-three {
+	text-align: center;
+	background-color: red;
 }
