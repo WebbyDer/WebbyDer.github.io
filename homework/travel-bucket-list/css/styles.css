@@ -8,7 +8,11 @@
 	color: black;   
 }
 
-.location one  {
+li {
+	text-align: center;
+}
+
+#location-one  {
 	background-color: rgb(196,222,252);
 	border: 4px wide;
 	color: black;
@@ -17,20 +21,20 @@
   	text-align: center;
 }
 
-.location two  {
+#location-two  {
 	background-color: rgb(194,242,227);
 	border: 4px wide;
 	color: black;
 	text-align: center;
 }
 
-.location three  {
+#location-three  {
 	background-color: rgb(196,222,252);
 	color: black;
 	text-align: center;
 	padding:5px 10px 5px 10px;
 }
 
-footer {
+.footer {
 	text-align: center:
 }
