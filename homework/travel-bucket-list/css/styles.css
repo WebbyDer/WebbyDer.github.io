@@ -5,11 +5,10 @@
 	text-size: 15px;
 	text-align: center;
 }
-div {
-	text-align: center;
-}
+
 a {
 	color: black;
+	text-align: center;
 }
 
 h2 {
