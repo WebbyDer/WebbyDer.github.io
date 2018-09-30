@@ -14,7 +14,6 @@ a {
 }
 
 h2 {
-	color
 	text-align: center;
 }
 id=location-one  {
@@ -40,6 +39,7 @@ id=location-three  {
 	padding:5px 10px 5px 10px;
 }
 
-footer {
+.footer {
+	margin: 20px;
 	text-align: center:
 }
