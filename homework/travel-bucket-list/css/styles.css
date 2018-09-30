@@ -1,7 +1,7 @@
 .header  {
-	background-color: rgb(9,202,159);
+	background: rgb(9,202,159);
 	color: white;
-	margin: 15px;
+	margin: 20px;
 	text-align: center;
 }
 a {
@@ -24,15 +24,15 @@ id=location-one  {
   	text-align: center;
 }
 
-.location-two  {
-	background-color: rgb(194,242,227);
+id=location-two  {
+	background: rgb(194,242,227);
 	border: 4px wide;
 	color: black;
 	text-align: center;
 }
 
-.location-three  {
-	background-color: rgb(196,222,252);
+id=location-three  {
+	background: rgb(196,222,252);
 	color: black;
 	text-align: center;
 	padding:5px 10px 5px 10px;
@@ -40,9 +40,4 @@ id=location-one  {
 
 .footer {
 	text-align: center:
-}
-
-.location-one, .location-two, .location-three {
-	text-align: center;
-	background-color: red;
 }
