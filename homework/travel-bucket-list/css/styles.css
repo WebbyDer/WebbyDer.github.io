@@ -1,5 +1,6 @@
 .header  {
 	background: rgb(9,202,159);
+	border-bottom: white;
 	color: white;
 	padding: 5px 10px;
 	text-size: 5px;
@@ -22,27 +23,25 @@ h2 {
 	
 }
 div {
+	border-bottom: #fff;
 	height: 350px;
 	width: 700px;
 	padding: 30px;
 	text-align: center;
-	border: 8px wide;
+	border: 15px wide;
 }
 .location-one  {
 	background: rgb(196,222,252);
-	border: 4px wide;
   	padding: 50px 30px;
   }
 
 .location-two  {
 	background: rgb(194,242,227);
-	border: 4px wide;
 	color: black;
 }
 
 .location-three  {
 	background: rgb(196,222,252);
-	border: 4px wide;
 	padding:5px 10px 5px 10px;
 }
 
