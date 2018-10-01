@@ -4,10 +4,14 @@
 	padding: 5px 10px;
 	text-size: 5px;
 	text-align: center;
+	height: 50px;
+	width: 700px;
 }
 
 a {
 	color: black;
+	height: 100px;
+	width: 700px;
 	margin: 10px;
 	text-size: 2px;
 	text-align: center;
@@ -15,8 +19,12 @@ a {
 
 h2 {
 	text-align: center;
+	
 }
 div {
+	height: 350px;
+	width: 700px;
+	padding: 30px;
 	text-align: center;
 	border: 8px wide;
 }
