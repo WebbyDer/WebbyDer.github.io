@@ -11,7 +11,7 @@
 
 a {
 	color: black;
-	height: 100px;
+	height: 50px;
 	width: 700px;
 	margin: 10px;
 	text-size: 2px;
@@ -20,10 +20,9 @@ a {
 
 h2 {
 	text-align: center;
-	
-}
+	}
+
 div {
-	height: 350px;
 	width: 700px;
 	padding: 30px;
 	text-align: center;
