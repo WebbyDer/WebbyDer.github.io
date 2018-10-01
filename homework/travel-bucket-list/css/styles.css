@@ -1,6 +1,6 @@
 .header  {
 	background: rgb(9,202,159);
-	border-bottom: white;
+	border-bottom-color: solid white;
 	color: white;
 	padding: 5px 10px;
 	text-size: 5px;
@@ -23,12 +23,15 @@ h2 {
 	
 }
 div {
-	border-bottom: #fff;
 	height: 350px;
 	width: 700px;
 	padding: 30px;
 	text-align: center;
 	border: 15px wide;
+	
+.locations {
+
+}
 }
 .location-one  {
 	background: rgb(196,222,252);
