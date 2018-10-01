@@ -1,9 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
 <h1> Hello, World!!</h1>
 
 <h2>Hello New Computer</h2>
 
 <h3>Hey yall? What's up?</h3>
-	<body>So can you read this?
-		<p>Are you really do this?</p>
-		<p>Is it ok if i just continue this line down here? Or do i need to name it paragraph again? </p>
-	</body>
+		<p>So can you read this?
+		Are you really do this?
+		Is it ok if i just continue this line down here? Or do i need to name it paragraph again? </p>
+</body>
+</html>
