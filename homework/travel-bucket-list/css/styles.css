@@ -1,14 +1,14 @@
 .header  {
 	background: rgb(9,202,159);
 	color: white;
-	margin: 20px;
-	text-size: 15px;
+	padding: 5px 10px;
+	text-size: 5px;
 	text-align: center;
 }
 
 a {
 	color: black;
-	padding: 5px 10px 5px 10px;
+	margin: 10px;
 	text-size: 2px;
 	text-align: center;
 }
@@ -16,30 +16,29 @@ a {
 h2 {
 	text-align: center;
 }
-id="location-one"  {
+div {
+	text-align: center;
+	border: 8px wide;
+}
+.location-one  {
 	background: rgb(196,222,252);
 	border: 4px wide;
-	color: black;
-  	display: inline;
-  	padding: 5px 10px 5px 10px;
-  	text-align: center;
-}
+  	padding: 50px 30px;
+  }
 
-id="location-two"  {
+.location-two  {
 	background: rgb(194,242,227);
 	border: 4px wide;
 	color: black;
-	text-align: center;
 }
 
-id="location-three"  {
+.location-three  {
 	background: rgb(196,222,252);
-	color: black;
-	text-align: center;
+	border: 4px wide;
 	padding:5px 10px 5px 10px;
 }
 
-.footer {
+footer {
 	margin: 20px;
 	text-align: center:
 }
