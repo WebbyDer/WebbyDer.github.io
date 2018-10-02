@@ -1,3 +1,36 @@
 .container {
 	width: 720px;
+	padding: 54px
+    border-left: solid 6px #dddddd
+}
+header {
+	color: #444444
+    font-family: "Lato" 
+    line-height: 1.5
+}
+h1	{
+	color: #dd0000
+
+}
+h2  {
+	color: #000
+}
+nav  {
+	color: #dddddd
+}
+a:hover  {
+	color: #000
+}
+.date {
+	color: #cccccc
+}
+.title  {
+	color: #000
+}
+.continues  {
+	text-align: right;
+	color: #000;
+}
+img {
+	width: 720px;
 }
