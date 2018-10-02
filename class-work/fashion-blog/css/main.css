@@ -5,21 +5,17 @@
     color: #444444;
     font-family: "Lato"; 
     line-height: 1.5;
-
-}
-header {
-	
 }
 h1	{
 	color: #dd0000;
-	font-family: 40px;
+	font-family: 60px;
 
 }
 h2  {
 	color: #000;
 }
 nav  {
-	color: #dddddd;
+	color: #000;
 }
 a:hover  {
 	color: #000;
@@ -32,6 +28,9 @@ a:hover  {
 	color: #000;
 	font-size: 40px;
 }
+p  {
+	font-size: 18px;
+}
 .continues  {
 	text-decoration: none;
 	text-align: right;
@@ -41,6 +40,6 @@ img {
 	width: 720px;
 }
 
-footer  {
+.footer menu  {
 	color: red;
 }
