@@ -28,9 +28,14 @@ a:hover  {
 	color: #000
 }
 .continues  {
+	text-decoration: none;
 	text-align: right;
-	color: #000;
+	color: red;
 }
 img {
 	width: 720px;
+}
+
+footer  {
+	color: red;
 }
