@@ -17,6 +17,7 @@ h2  {
 }
 nav  {
 	color: #000;
+
 	font-size: 20px;
 }
 a:hover  {
@@ -35,6 +36,8 @@ p  {
 	font-size: 18px;
 }
 .continues  {
+	font-size: 18px;
+	font-weight: bold;
 	text-decoration: none;
 	text-align: right;
 	color: red;
@@ -51,7 +54,7 @@ img {
 footer {
 	color: #bbbbbb;
 	font-size: 18px;
-	padding: 20px;
+	padding: 20px 0 0 0;
 
 }
 
