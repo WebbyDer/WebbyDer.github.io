@@ -1,31 +1,36 @@
 .container {
 	width: 720px;
-	padding: 54px
-    border-left: solid 6px #dddddd
+	padding: 54px;
+    border-left: solid 6px #dddddd;
+    color: #444444;
+    font-family: "Lato"; 
+    line-height: 1.5;
+
 }
 header {
-	color: #444444
-    font-family: "Lato" 
-    line-height: 1.5
+	
 }
 h1	{
-	color: #dd0000
+	color: #dd0000;
+	font-family: 40px;
 
 }
 h2  {
-	color: #000
+	color: #000;
 }
 nav  {
-	color: #dddddd
+	color: #dddddd;
 }
 a:hover  {
-	color: #000
+	color: #000;
 }
 .date {
-	color: #cccccc
+	color: #cccccc;
+	font-size: 40px;
 }
 .title  {
-	color: #000
+	color: #000;
+	font-size: 40px;
 }
 .continues  {
 	text-decoration: none;
