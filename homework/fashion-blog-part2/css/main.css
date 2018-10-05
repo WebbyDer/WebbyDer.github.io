@@ -49,26 +49,26 @@ a:hover {
     color: #a00;
     background: #900;
 }
-clearfix after {
-	align-content: left;
+.clearfix:after {
+	content:"";
 	display: table;
 	clear: both;
 }
-sidebar { 
-	float: right;
- }
 section {
 	float: left;
+}
+aside {
+	float; right;S
 }
 .date {
 	color: #cccccc;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 300px;
 }
 .title  {
 	color: #000;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 300px;
 }
 p::first-letter { 
     font-size: 108px;
