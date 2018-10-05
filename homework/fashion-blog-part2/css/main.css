@@ -21,14 +21,13 @@ h1:hover {
 h2 {
 	color: #444;
     font-size: 27px;
-    font-weight: 300px;
+    font-weight: 100px;
 }
 
 header h1,
 header h2  {
 	display: inline-block;
 	margin: 0;
-    font-family: "Lato"; 
     line-height: 1.5;
 }
 nav {
@@ -72,7 +71,7 @@ aside {
 }
 p::first-letter { 
     font-size: 108px;
-    color: #8A2BE2;
+    color: rgb(221,221,221);
     line-height: 1px;
 
 }
