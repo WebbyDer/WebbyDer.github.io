@@ -40,9 +40,14 @@ p  {
 	font-weight: bold;
 	text-decoration: none;
 	text-align: right;
+}
+
+a {
 	color: red;
+	text-decoration: none;
 }
 img {
+	margin: 10px 0;
 	width: 720px;
 }
 
