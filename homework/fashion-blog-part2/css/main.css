@@ -2,7 +2,8 @@
 	margin: auto;
 	padding: 54px;
 	width: 1080px;
-	overflow: auto;
+	font-family: "Lato";
+	font-size: 18px; 
 }
 
 body {
@@ -10,14 +11,17 @@ body {
 }
 
 h1 {
-	color: #d00;
-	font-size: 60px;
+	color: #dd0000;
+	font-size: 74px;
+    font-weight: 300px;
 }
-
+h1:hover {
+	  color: #a00;
+}
 h2 {
 	color: #444;
     font-size: 27px;
-    font-weight: 300;
+    font-weight: 300px;
 }
 header h1,
 header h2  {
@@ -33,6 +37,7 @@ nav {
     color: #000;
     height: 50px;
     font-size: 24px;
+    margin: 15px 0 15px 0;
 }
 
 a {
@@ -44,9 +49,15 @@ a:hover {
     color: #a00;
     background: #900;
 }
-.sidebar {
+container-clearfix after {
+	align-content: 
+	display: table;
+	clear: both;
+}
+section {
 	float: left;
-	width:;
+	height: 680px;
+	width: 1080px;
 }
 .date {
 	color: #cccccc;
@@ -59,11 +70,25 @@ a:hover {
     font-weight: 300;
 }
 p::first-letter { 
-    font-size: 200%;
+    font-size: 108px;
     color: #8A2BE2;
+    line-height: 1px;
+
 }
-.clear {
+.continues... {
+	text-alight: right;
+
+}
+.clear-letter {
 	clear: both;
 }
+.footer-menu  {
+	color: red;
+	font-size: 18px;
+}
+
+footer {
+	color: #bbbbbb;
+	font-size: 18px;
 
 }
