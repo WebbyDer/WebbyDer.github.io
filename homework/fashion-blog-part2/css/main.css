@@ -49,15 +49,16 @@ a:hover {
     color: #a00;
     background: #900;
 }
-container-clearfix after {
-	align-content: 
+clearfix after {
+	align-content: left;
 	display: table;
 	clear: both;
 }
+sidebar { 
+	float: right;
+ }
 section {
 	float: left;
-	height: 680px;
-	width: 1080px;
 }
 .date {
 	color: #cccccc;
@@ -77,11 +78,8 @@ p::first-letter {
 }
 .continues... {
 	text-alight: right;
+}
 
-}
-.clear-letter {
-	clear: both;
-}
 .footer-menu  {
 	color: red;
 	font-size: 18px;
