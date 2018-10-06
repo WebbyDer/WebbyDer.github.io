@@ -19,7 +19,6 @@ a {
 .locations {
 	color: black;
 	height: 50px;
-	width: 700px;
 	text-align: center;
 }
 
@@ -28,7 +27,6 @@ h2 {
 	}
 
 div {
-	width: 700px;
 	padding: 30px;
 	text-align: center;
 	border: 15px wide;
