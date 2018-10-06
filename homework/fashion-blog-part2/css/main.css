@@ -55,19 +55,42 @@ a:hover {
 }
 section {
 	float: left;
+	width: 730px;
+}
+img {
+	width: 100%;
 }
 aside {
-	float; right;
+	float: right;
+	margin: 20px 0 0 0;
+	width: 320px;
 }
+.paragraph {
+	margin: 0 0 30 0;
+}
+.more...{
+	color: #dd0000;
+	margin: 50px;
+	text-align: right;
+}
+ul {
+	font-weight: bold;
+
+}
+img { 
+	margin-top: 40px;
+ }
 .date {
 	color: #cccccc;
     font-size: 36px;
     font-weight: 300px;
+    margin: 50px 0 20px 0;
 }
 .title  {
 	color: #000;
     font-size: 36px;
     font-weight: 300px;
+    margin: 0 0 20px 0;
 }
 p::first-letter { 
     font-size: 108px;
@@ -76,8 +99,9 @@ p::first-letter {
 
 }
 .continues... {
+	color: #dd0000;
 	font-weight: bold;
-	text-alight: right;
+	text-align: right;
 }
 
 .footer-menu  {
