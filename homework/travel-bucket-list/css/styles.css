@@ -1,20 +1,25 @@
+.container {
+ 	width: 780px;
+}
+
 .header  {
 	background: rgb(9,202,159);
 	border-bottom-color: solid white;
 	color: white;
-	padding: 5px 10px;
-	text-size: 5px;
+	padding: -5px 10px;
 	text-align: center;
 	height: 50px;
-	width: 700px;
+}
+a {
+	color: black;
+	margin: 20px;
+	text-decoration: none;
 }
 
 .locations {
 	color: black;
 	height: 50px;
 	width: 700px;
-	margin: 10px;
-	text-size: 2px;
 	text-align: center;
 }
 
@@ -28,18 +33,15 @@ div {
 	text-align: center;
 	border: 15px wide;
 }
-.location-one  {
-	background: rgb(196,222,252);
-  	padding: 50px 30px;
-  }
-
 .location-two  {
 	background: rgb(194,242,227);
 }
 
+.location-one,
 .location-three  {
 	background: rgb(196,222,252);
-	padding:5px 10px 5px 10px;
+	margin: 30px 0 30px 0;
+	padding: 50px 30px;
 }
 
 footer {
