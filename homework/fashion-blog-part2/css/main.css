@@ -12,7 +12,7 @@ body {
 
 h1 {
 	color: #dd0000;
-	font-size: 74px;
+	font-size: 64px;
     font-weight: 300px;
 }
 h1:hover {
@@ -68,18 +68,14 @@ aside {
 .paragraph {
 	margin: 0 0 30 0;
 }
-.more...{
+.more {
 	color: #dd0000;
 	margin: 50px;
 	text-align: right;
 }
 ul {
 	font-weight: bold;
-
 }
-img { 
-	margin-top: 40px;
- }
 .date {
 	color: #cccccc;
     font-size: 36px;
@@ -93,24 +89,27 @@ img {
     margin: 0 0 20px 0;
 }
 p::first-letter { 
+	float: left;
     font-size: 108px;
     color: rgb(221,221,221);
-    line-height: 1px;
+    line-height: 1cm;
+    width: 500px;
 
 }
-.continues... {
+.continues {
+	background: linear-gradient 180px;
 	color: #dd0000;
 	font-weight: bold;
 	text-align: right;
 }
 
 .footer-menu  {
-	color: red;
+	color: #dd0000;
 	font-size: 18px;
+	margin: 80px 0 40px 0;
 }
 
 footer {
 	color: #bbbbbb;
-	font-size: 18px;
-
+	margin: 40px 0 40px 0;
 }
