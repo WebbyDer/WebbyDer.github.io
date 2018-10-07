@@ -92,7 +92,7 @@ p::first-letter {
 	float: left;
     font-size: 108px;
     color: rgb(221,221,221);
-    line-height: 1cm;
+    line-height: 100%;
     width: 500px;
 
 }
