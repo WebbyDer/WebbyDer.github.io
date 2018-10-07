@@ -65,22 +65,23 @@ aside {
 	margin: 20px 0 0 0;
 	width: 320px;
 }
-.paragraph {
+.about-us {
 	margin: 0 0 30 0;
 }
 .more {
-	color: #dd0000;
+	color: rbg(212,0,25);
 	margin: 50px;
 	text-align: right;
 }
-ul {
+p {
+	color: rbg(212, 0, 25);
 	font-weight: bold;
 }
 .date {
 	color: #cccccc;
     font-size: 36px;
     font-weight: 300px;
-    margin: 50px 0 20px 0;
+    margin: 50px 0 10px 0;
 }
 .title  {
 	color: #000;
@@ -94,11 +95,9 @@ p::first-letter {
     color: rgb(221,221,221);
     line-height: 100%;
     width: 500px;
-
 }
 .continues {
-	background: linear-gradient 180px;
-	color: #dd0000;
+	color: rbg(255, 255 ,255);
 	font-weight: bold;
 	text-align: right;
 }
