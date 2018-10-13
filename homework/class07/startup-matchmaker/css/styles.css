@@ -68,7 +68,7 @@ nav {
 	overflow: auto;
 	background-image:url('../img/coworking.jpg');
 	background-size: cover;
-  height: 600px;
+  height: calc (50%-100px);
 	padding: 40px;
 }
 
