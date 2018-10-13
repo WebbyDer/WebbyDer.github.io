@@ -8,37 +8,44 @@ header {
 	background: #000;
 	border-bottom: solid #ffff00;
 	overflow: auto;
-	padding: 5px;
+	
 
 }
 h1 {
 	color: #ffff00;
 	float: left;
-    font-family: "Merriweather";
+  font-family: "Merriweather";
+  padding: 15px 0 15px 50px;
 }
 a {
 	color: #fff;
-	padding: 20px;
 	text-decoration: none;
+  padding: 25px;
 }
 
 nav {
-	margin-top: 8px;
+	margin-top: 20px;
 	color: #fff;
-  	font-family: Oswald;
-  	float: right;
+  font-family: Oswald;
+  float: right;
 }
 .div {
 	float: left;
 	overflow: auto;
 }		
 .aside {
+  background-color: rgba(255, 255, 255, 0.8);
 	float: right;
 	width: 30%;
 	border: solid black 1px;
+  margin-right: 40px;
+  padding: 30px;
 }
 .bold-link {
 	font-weight: bold;
+}
+.reg-text {
+  font-weight: 100px;
 }
 
 .brains {
@@ -46,6 +53,10 @@ nav {
 	font-family: "Merriweather";
 	padding: 40px;
 	text-align: center;
+}
+.cross-out{
+  color: #999;
+  text-decoration: line-through;
 }
 
 .banner {
