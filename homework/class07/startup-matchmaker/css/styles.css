@@ -9,7 +9,6 @@ header {
 	border-bottom: solid #ffff00;
 	overflow: auto;
 	
-
 }
 h1 {
 	color: #ffff00;
@@ -51,19 +50,26 @@ nav {
 .brains {
 	background: #C6C6C6;
 	font-family: "Merriweather";
+  font-style: italic;
+  font-size: 24px;
 	padding: 40px;
 	text-align: center;
+
 }
 .cross-out{
   color: #999;
   text-decoration: line-through;
+}
+.underline{
+  text-decoration: underline;
 }
 
 .banner {
 	overflow: auto;
 	background-image:url('../img/coworking.jpg');
 	background-size: cover;
-	padding: 20px;
+  height: 600px;
+	padding: 40px;
 }
 
 .clearfix:after  {
