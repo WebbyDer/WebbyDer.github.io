@@ -68,7 +68,7 @@ nav {
 	overflow: auto;
 	background-image:url('../img/coworking.jpg');
 	background-size: cover;
-  height: calc (50%-100px);
+  height: calc(50%-100px);
 	padding: 40px;
 }
 
@@ -121,8 +121,17 @@ h2 {
   	padding: 12px;
   	text-transform: uppercase;
   	width: 100%;
- }
-
+}
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 30px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 30px;
+  }
  footer {
  	background: #000;
  	padding: 20px 0;
