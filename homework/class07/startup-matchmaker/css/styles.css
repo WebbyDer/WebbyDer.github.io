@@ -52,7 +52,7 @@ nav {
 	font-family: "Merriweather";
   font-style: italic;
   font-size: 24px;
-	padding: 40px;
+	padding: 20px;
 	text-align: center;
 
 }
@@ -62,6 +62,7 @@ nav {
 }
 .underline{
   text-decoration: underline;
+  text-decoration-color: #ffff00;
 }
 
 .banner {
