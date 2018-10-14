@@ -68,10 +68,9 @@ nav {
 	overflow: auto;
 	background-image:url('../img/coworking.jpg');
 	background-size: cover;
-  background-position: center top;
-  height: 400px;
-  width: 1300px;
-  
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat
 	
 }
 
@@ -85,12 +84,13 @@ nav {
   outline: 1px;
   overflow: auto;
   margin: auto;
+  padding-bottom: 40px;
 }
 
 .cards {
   float: left;
   width: calc(100%/3);
-  padding: 30px;	
+  padding: 40px;	
 }
 
 h2 {
@@ -125,20 +125,21 @@ h2 {
   	text-transform: uppercase;
   	width: 100%;
 }
-.fas {
+.fas  fa-heart {
   background-color: red;
   display: inline-block;
   height: 20px;
   margin: 0 10px;
   position: relative;
   top: 0;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   width: 30px;
   }
 
  .footer {
+  color: white;
  	background: #000;
- 	padding: 40px;
+ 	padding: 32px;
  }
 /*
 
