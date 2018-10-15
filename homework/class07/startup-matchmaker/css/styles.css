@@ -40,10 +40,10 @@ nav {
   padding: 30px;
 }
 .bold-link {
-	font-weight: bold;
+	font-family: Oswald', sans-serif;
 }
 .reg-text {
-  font-weight: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .brains {
@@ -59,18 +59,18 @@ nav {
   color: #999;
   text-decoration: line-through;
 }
-.underline{
+.underline {
   text-decoration: underline;
   text-decoration-color: #ffff00;
 }
 
 .banner {
 	overflow: auto;
+  background-position: center;
 	background-image:url('../img/coworking.jpg');
 	background-size: cover;
-  height: 500px; 
-  background-position: center; 
-  background-repeat: no-repeat
+  padding: 45px;
+  /*height: 500px;*/ 
 	
 }
 
@@ -136,6 +136,10 @@ h2 {
   width: 30px;
   }
 
+  i {
+    color: red;
+  }
+
  .footer {
   color: white;
  	background: #000;
@@ -144,8 +148,8 @@ h2 {
 /*
 
 FONT FAMILY HELPERS :)
-font-family: 'Oswald', sans-serif;
+font-family: ';
 font-family: 'Merriweather', serif;
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 
 
 */
