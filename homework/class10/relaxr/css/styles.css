@@ -6,7 +6,7 @@ body {
 margin: 0;
 background-color: #f0efef;
 font-family: 'Open Sans', sans-serif;
-font-weight: 300px;
+font-weight: 300;
 }
 header {
 align-items: center;
@@ -35,24 +35,55 @@ width: 30%;
 h2 {
 color: #043049;
 }
-
-
+p {
+  color: #606161;
+  font-size: 24px;
+  line-height: 1.333;
+}
+p::first-letter { 
+font-size: 400%;
+font-weight: bold;
+color: rbg(96,97,97);
+}
+.read-more {
+color: #043049;
+font-weight: 600;
+padding: 20px;
+text-align: right;
+}
 .section {
-color: #606161;
+color: #606161;S
 font-size: 24px;
 line-height: 1.333;
 }
+.group {
+	border-bottom: 1px solid #043049;
+}
 aside {
 padding: 10px 20px 0 40px;
+
 }
 h3 {
 color: #043049;
 font-size: 32px;
 font-weight: 800;
 }
+sidebar a {
+color: #043049;
+font-size: 24px;
+}
+sidebar p {
+font-size: 22px;
+line-height: 1.1;
+}
+span {
+color: #043049;
+font-weight: 600;
+}
 .button-wrapper {
-background: f9e42e;
+background: #f9e42e;
 text-align: center;
+padding: 20px;
 }
 button {
 background: #033048;
@@ -60,16 +91,27 @@ border-radius: 5px;
 color: #fff;
 font-size: 28px;
 font-weight: 800;
+padding: 10px;
 }
 h4 {
-background-color: black;
 color: #f9e42e;
 font-size: 48px;
 font-weight: 800;
 }
 footer {
+ background: black;
  color: #ffffff;
  font-size: 18px;
  font-weight: 600;
- padding-bottom: 40px ;
+ padding: 20px 0;
+ text-align: center;
+}
+img {
+padding: 25px;
+}
+.copyright {
+color: #fff;
+font-size: 18px;
+font-weight: 600p
+
 }
