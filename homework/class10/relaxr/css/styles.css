@@ -62,14 +62,16 @@ border-bottom: 1px solid #043049;
 aside {
 padding: 10px 20px 0 40px;
 }
+.vertical {
+color: #043049;
+display: block;
+font-size: 24px;
+}
 h3 {
 color: #043049;
 font-size: 32px;
 font-weight: 800;
 }
-sidebar-a {
-color: #043049;
-font-size: 24px;
 }
 .sidebar-p {
 font-size: 22px;
