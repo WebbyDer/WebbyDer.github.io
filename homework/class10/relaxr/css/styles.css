@@ -47,8 +47,8 @@ color: rbg(96,97,97);
 }
 .read-more {
 color: #043049;
-font-weight: 600;
-padding: 20px;
+font-size: 20px;
+font-weight: 600px;
 text-align: right;
 }
 .section {
@@ -56,8 +56,9 @@ color: #606161;S
 font-size: 24px;
 line-height: 1.333;
 }
-.group {
+.section {
 border-bottom: 1px solid #043049;
+padding: 20px;
 }
 aside {
 padding: 10px 20px 0 40px;
@@ -113,14 +114,21 @@ padding: 25px;
 .copyright {
 color: #fff;
 font-size: 18px;
-font-weight: 600p
+font-weight: 600;
 }
-@media screen and (max-width: 1024px) {
-body {
+@media screen and (min-width: 1024px) {
+	header {
 justify-content: space-between;
 }
 .container {
 display: flex;
 justify-content: space-between;
 width: 40%;
+}
+@media (min-width: 320px) and (max-width: 480px) { 
+}
+
+@media only screen and (min-device-width: 375px) and 
+(max-device-height: 667px) and (orientation : landscape) 
+and (-webkit-device-pixel-ratio: 2){
 }
