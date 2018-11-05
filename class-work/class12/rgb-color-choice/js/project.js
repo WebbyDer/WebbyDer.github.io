@@ -22,19 +22,15 @@ function colorChange() {
   document.querySelector('colorChange')onclick
 } 
 document.querySelector('#)*/
+function changeColor (){
+var red = document.querySelector('#red').value;
+var green = document.querySelector('#green').value;
+var blue = document.querySelector('#blue').value;
+var rgbValue = 'rgb('+ red + ',' + green + ',' + blue + ')';
 
-function changeColor(){
-  var red = document.querySelector('#red').value
-  var green = document.querySelector('#green').value
-  var blue = document.querySelector('#blue').value
-  var rgbValue = 'rgb('+ red +','+ green + ',' + blue +')'
-
- document.querySelector('#wrapper').style.background = rgbValue
- document.querySelector('#colorful-text').innerHTML = rgbValue
+document.querySelector('#wrapper').style.background = rgbValue;
+document.querySelector('#colorful-text').innerHTML = rgbValue;
 
 }
 
 document.querySelector('button').onclick = changeColor
-
-
-
