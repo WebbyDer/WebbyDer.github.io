@@ -15,8 +15,56 @@
 
 var count = 0
 
-$('#click-me').click(/* What goes here?! */)
+$('#click-me').click(clickCount)
 
-function clickCount() {
+function clickCount () {
+	// 1. Updating variable count and updating #click-num
+	count = count + 1
+	 $('#click-me').html(count)
+	if (count === 5) {
+	 $('#body').css('background-color','red')
+	} else if (count === 10) {
+	 $('#body').css('background-color','green')
+	} else if (count === 15) {
+	 $('#body').css('background-color','blue')
+	} else if (count === 20) {
+	//Add the CSS class 'rotate' to <body>
+	 $('body').addClass('rotate') 
+	} else {
+     $('body').css('background-color', 'black')
+	}
+}	
 
+
+/*function === 5 (){
+	count = count = >5
+	$('#click-num').html(count)
 }
+function === 10(){
+	count = count = >10
+	$('#click-num').html(count)
+}
+function === 15(){
+	count = count = >15
+	$('#click-num').html(count)
+}
+var x = 5
+} else if ( x!== 5){}
+
+function changeRed (){
+	$('#click-me').css('background' , 'red')*/
+
+
+
+
+
+	// 2. Run conditional logic
+
+// function === 5(){
+// 	count = count = >5
+// 	$('#click-num').html(count)
+// }
+// 	=== 10
+// 	=== 15
+
+
