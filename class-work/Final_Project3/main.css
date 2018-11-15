@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body, h1, h2 {
+	margin: 0;
+}
+header {
+	background: #000;
+	border-bottom: solid #ffff00;
+	overflow: auto;
+}
+h1 {
+	color: #ffff00;
+	float: left;
+    font-family: "Merriweather";
+    padding: 15px 0 15px 50px;
+}
+img{
+	height: 300px;
+	width: 300px;
+}
+
+nav {
+	overflow: auto;
+	margin-top: 20px;
+	color: #fff;
+    font-family: Oswald;
+    float: right;
+}
