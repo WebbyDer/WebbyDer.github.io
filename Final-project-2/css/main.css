@@ -110,7 +110,7 @@ a:hover {
 /***** ABOUT *****/
 
 #about .full-width {
-	padding: 80px 0 150px 0;
+	padding: 60px 0 150px 0;
 }
 
 #about h2 {
@@ -157,7 +157,7 @@ a:hover {
 /*******Contact*******/
 
 #contact{
-	background-color: #ebebeb;
+	background-color: #C29086;
     flex-wrap: wrap;
 }
 #contact-info {
@@ -165,7 +165,7 @@ a:hover {
  }
 
 #contact .full-width {
-    padding: 110px 0;
+    padding: 110px;
     padding-bottom: 200px;
 }
 
@@ -181,25 +181,28 @@ a:hover {
 
 #envelope {
     padding: 0 10px 0 115px;
-
+*/
 }
 
 #contact h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 #email-header{
     font-size: 32px;
     font-weight: normal;
-    margin: -30px 0 5px 0;
+    margin: -30px 0 10px 0;
+    text-align: center;
 }
 
 #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     margin: 30px 0 0 0;
+    text-align: center;
 }
 
 #contact a {
@@ -220,13 +223,14 @@ i {
 i:hover{
     color: #4A5070;
 }
+/*
 .fa-5x:hover{
     color: white;
 }
 .fa-2x{
     color: grey;
 }
-
+*/
 #contact ul {
     list-style: none;
 }
@@ -236,59 +240,12 @@ i:hover{
 }
 
 #contact ul img {
-    padding-right: 48px;
+    padding-right: 38px;
 }
 
 .half-width a{
     display: flex;
     flex-wrap: wrap;
-}
-/******Twitter Bird*******/
-body {
-  color: #999;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-    margin: 0;
-}
-
-p {
-  margin: 3px;
-}
-
-.info {
-  margin-right: 280px;
-  padding: 20px;
-}
-
-.follow-wrapper {
-  height: 44px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.follow-button {
-    background-image: url(http://minimalmonkey.com/lab/css3-animations/twitter-bird-sprite-small.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    cursor: pointer;
-    display: block;
-    padding: 7px 0 7px 40px;
-    position: absolute;
-    right: -168px;
-    top: 5px;
-    -webkit-transition: right 0.3s;
-    -moz-transition: right 0.3s;
-    transition: right 0.3s;
-    width: 168px;
-}
-
-.follow-button:hover {-webkit-animation: fly 0.2s steps(4) 0 10;
-    -moz-animation: fly 0.2s steps(4) 0 10;
-    animation: fly 0.2s steps(4) 0 10;
-    right: 0;
 }
 
 @-webkit-keyframes fly {
@@ -401,10 +358,8 @@ textarea{
     border: 1px solid grey;
     margin-top: 8px;
 }
-.mailus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+socialmedia-header {
+    text-align: center;
 }
 @media screen and (max-width: 1170px) {
     header h2{
@@ -469,6 +424,10 @@ textarea{
     p{
         font-size: 3em;
     }
+
+    ul {
+        color: #4A5070;
+    }
     /*
 body {
         background-color: #f1f1f1;
@@ -478,4 +437,6 @@ body {
 
       .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
 
+u
+}
 
