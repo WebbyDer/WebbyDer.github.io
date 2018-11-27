@@ -25,7 +25,7 @@ newEntry = parseInt(newEntry)
 
 $('#entries').append('<div>' + newEntry + '</div>')
 total = total + newEntry
-$('#total').html(total)
+$('#total').html('$' + total)
 $('#newEntry').val('')
 }
 

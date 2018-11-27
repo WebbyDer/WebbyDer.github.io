@@ -3,7 +3,6 @@
 }
 body{
 	 font-family: 'Raleway', serif;
-	 margin: 0;  
 }
  
  #about, #work, #contact {
@@ -32,10 +31,10 @@ body{
 /***** HEADER *****/
 
 .fixed-background {
-    background: url('../img.IMG-1062.JPG');
+    background: url('../img/IMG-1062.JPG');
     width: 100%;
     height: auto;
-    display:block;
+    display: block;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +42,7 @@ body{
 }
 
 .change{
-    background: url('../img/ales-krivec-107499.jpg');
+    background: url('../img/IMG-1071.JPG');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -55,11 +54,8 @@ body{
 header .full-width {
 align-items: right;
 text-align: center;
-padding: 300px 0; /*this could vary depending on screen size*/
+padding: 300px 0; 
 width: 100%;
-}
-.fixed-background{
-   
 }
 
 i {
@@ -78,7 +74,7 @@ header h2 span {
 }
 
 
-/*****NAVIGATION MENU *****/
+/*****NAV MENU *****/
 
 nav {
     position: fixed;
@@ -108,14 +104,14 @@ nav ul li a {
     padding-left: 80px; 
 }
 
-a:hover{
+a:hover {
     color: #4A5070;
 }
 /***** ABOUT *****/
 
 #about .full-width {
 	padding: 80px 0 150px 0;
-  }
+}
 
 #about h2 {
     font-size: 36px;
@@ -158,13 +154,13 @@ a:hover{
     color: white;
     padding: 0 35px;
 }
-/*******ABOUT*******/
+/*******Contact*******/
 
 #contact{
 	background-color: #ebebeb;
     flex-wrap: wrap;
 }
- #contact-info{
+#contact-info {
     display: block;
  }
 
@@ -217,7 +213,7 @@ footer ul{
     text-align: center;
 }
 
-i{
+i {
     padding: 20px;
 }
 
@@ -230,7 +226,6 @@ i:hover{
 .fa-2x{
     color: grey;
 }
-
 
 #contact ul {
     list-style: none;
@@ -248,23 +243,108 @@ i:hover{
     display: flex;
     flex-wrap: wrap;
 }
-/******* Inspiration *******/.inspo{
+/******Twitter Bird*******/
+body {
+  color: #999;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+    margin: 0;
+}
+
+p {
+  margin: 3px;
+}
+
+.info {
+  margin-right: 280px;
+  padding: 20px;
+}
+
+.follow-wrapper {
+  height: 44px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.follow-button {
+    background-image: url(http://minimalmonkey.com/lab/css3-animations/twitter-bird-sprite-small.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    display: block;
+    padding: 7px 0 7px 40px;
+    position: absolute;
+    right: -168px;
+    top: 5px;
+    -webkit-transition: right 0.3s;
+    -moz-transition: right 0.3s;
+    transition: right 0.3s;
+    width: 168px;
+}
+
+.follow-button:hover {-webkit-animation: fly 0.2s steps(4) 0 10;
+    -moz-animation: fly 0.2s steps(4) 0 10;
+    animation: fly 0.2s steps(4) 0 10;
+    right: 0;
+}
+
+@-webkit-keyframes fly {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -140px;
+  }
+}
+
+@-moz-keyframes fly {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -140px;
+  }
+}
+
+@keyframes fly {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -140px;
+  }
+}
+
+.hover-me {
+  background-image: url(http://);
+  height: 184px;
+  position: absolute;
+  right: 5px;
+  top: -5px;
+  width: 274px;
+}
+/*
+/******* Web Designs *******/
+/*.webdes{
     text-align: center;
     color: #828282;
 
 }
-.inspo h3{
+.webdes h3{
     font-size: 36px;
     padding: 10px;
 }
-.inspo p{
+.webdes p{
     font-size: 24px;
     padding-right: 100px;
     padding-left: 100px;
     line-height: 40px;
 }
 #space{
-    background-image: url('../img/stefan-stefancik-105376.jpg');
+    background-image: url('img/IMG-1071.JPG');
     width: 100%;
     height: auto;
     background-size: cover;
@@ -286,10 +366,10 @@ i:hover{
     width: 50%;
     line-height: 40px;
 }
+*/
+/***** Contact Button *****/
 
-/***** MODAL *****/
-
-button{
+button {
     margin-left: 43%;
     margin-right: 40%;
     margin-bottom: 2%;
@@ -299,9 +379,7 @@ button{
     background-color: white;
     font-family: 'Lora', serif;
     color: #828282;
-
 }
-
 input{
     display: block;
     width: 50%;
@@ -309,7 +387,13 @@ input{
     margin-bottom: 10px;
     border: 1px solid grey;
 }
-
+input{
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
 textarea{
     width: 50%;
     height: 200px;
@@ -317,81 +401,16 @@ textarea{
     border: 1px solid grey;
     margin-top: 8px;
 }
-
-.modal {
- /* padding: 20px;*/
-  background-color: rgba(0, 0, 0, .3);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 .mailus{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.modal-content {
-  /*padding: 20px 10px;*/
-  color: #828282;
-  background-color: white;
-  width: 60%;
-  text-align: center;
-}
-
-.modal-content i{
-    color: #969691;
-}
-.modal-content button{
-    margin-left: 40%;
-    margin-top: 4%;
-    border: 1px solid grey;
-}
-
-.modal-open {
-    overflow: hidden;
-}
-.close p{
-    display: flex;
-    justify-content: flex-end;
-}
-#X{
-    text-align: right;
-    padding: 20px;
-    font-weight: bold;
-}
-.half-width button{
-    margin-left: 20%;
-    margin-top: 3%;
-}
-
-/*.gallery{
-    display: flex;
-    justify-content: space-around;
-
-}
-.col-1-3{
-    width: 20%;
-
-}
-.col-1-3 img{
-    width: 100%;
-    display: block;
-}
-*/
-
 @media screen and (max-width: 1170px) {
     header h2{
         font-size: 45px;
         padding: 10px;
     }
-
 }
 @media screen and (max-width: 950px) {
        
@@ -450,7 +469,13 @@ textarea{
     p{
         font-size: 3em;
     }
-    }
+    /*
+body {
+        background-color: #f1f1f1;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
 
+      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
 
 
