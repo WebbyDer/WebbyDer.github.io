@@ -159,9 +159,11 @@ a:hover {
 #contact{
 	background-color: #C29086;
     flex-wrap: wrap;
+    padding: 0;
 }
 #contact-info {
     display: block;
+    padding: 0;
  }
 
 #contact .full-width {
@@ -181,13 +183,13 @@ a:hover {
 
 #envelope {
     padding: 0 10px 0 115px;
-*/
 }
 
 #contact h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     padding-bottom: 15px;
+    padding: 0;
     text-align: center;
 }
 
@@ -195,6 +197,7 @@ a:hover {
     font-size: 32px;
     font-weight: normal;
     margin: -30px 0 10px 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -202,6 +205,7 @@ a:hover {
     font-weight: bold;
     font-size: 29px;
     margin: 30px 0 0 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -210,10 +214,12 @@ a:hover {
     color: grey;
     font-weight: bold;
     font-size: 28px;
+    padding: 0;
 }
 
 footer ul{
     text-align: center;
+    padding: 0;
 }
 
 i {
@@ -418,7 +424,7 @@ socialmedia-header {
 
 }
 @media screen and (max-width: 450px){
-    header h2{
+    header h2 {
         font-size: 30em;
     }
     p{
@@ -428,6 +434,7 @@ socialmedia-header {
     ul {
         color: #4A5070;
     }
+}
     /*
 body {
         background-color: #f1f1f1;
